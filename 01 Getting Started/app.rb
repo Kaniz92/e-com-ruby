@@ -8,7 +8,7 @@ class GiftBasket < Sinatra::Base
   attr_reader :tokens
   API_KEY = ENV['API_KEY']
   API_SECRET = ENV['API_SECRET']
-  APP_URL = "tracified-ecom.herokuapp.com"
+  APP_URL = "e-com-app-ruby.herokuapp.com"
 
   def initialize
     @tokens = {}
